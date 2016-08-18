@@ -10,6 +10,13 @@ namespace csharp_abstract
     {
         static void Main(string[] args)
         {
+            Consultancy consultancy = new Consultancy() { Name = ".Net Security" };
+            consultancy.Operate();
+
+            Training training = new Training() { Name = "Introduction to C#" };
+            training.Operate();
+
+            Console.ReadLine();
         }
     }
 }
